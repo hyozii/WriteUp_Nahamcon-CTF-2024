@@ -8,12 +8,14 @@
 
 내가 풀었던 warmup 문제 중 가장 먼저 풀었던 문제는 Read The Rules 문제였다. 내게 생애 첫 플래그를 가져다 준 문제이니 기록해보고 싶었다ㅋㅋ 처음 연합 스터디에서 사이트를 보여주고 '플래그를 찾아보세요!' 하셨을 땐 정말 막막했지만 그래도 이번엔 어떻게든 찾다보면 나온다는 걸 알아서인지 가벼운 마음으로 시작했다.
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/68476d38-109a-4094-a25e-fd9df467c646)
+![스크린샷 2024-05-31 161813](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/63d8cbd1-81ac-408a-99bc-de70c56ca639)
 
 링크를 클릭해 뭐가 있는지 들어가보자.
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/32951033-8643-430b-8211-c29bbaf43688)
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/28787dcb-c722-4b78-bf90-c02e7aade295)
+![스크린샷 2024-05-31 161850](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/1abb8228-c868-4fe5-9ffa-422a02bb21f5)
+
+![스크린샷 2024-05-31 161907](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/7a91159c-7c92-4a88-bb96-7187ef3cba43)
+
 
 간단한 룰에 대한 설명이고... 별 말 안 쓰여있다. 여기에선 얻을만한 정보가 없을 것 같다. 아 플래그가 이런 형식이라는 걸 보여줬으니 그 부분을 잘 기억하자. 그리고 바로 f12를 눌러 웹 브라우저를 까보자.
 
@@ -21,21 +23,24 @@
 
 이렇게 되어있는데, 처음엔 뭐라는지도 모르고 당황했지만, 지금은 저게 뭘 나타내는지 안다. 왜냐? 난 웹을 공부한 여자니까. elements 부분에 뭐가 있는지 먼저 확인해봐야겠다. 
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/c6a55fa3-b63c-41f2-8046-e12c2df96abf)
+![스크린샷 2024-05-31 162041](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/78ec71be-b322-47a2-b0c3-6c75cae97e8c)
 
 
 코드가 정말 많은데, 연합 스터디에서는 이런 부분을 보고 뭐가 있는 거 아니냐 했지만 이젠 속지 않는다. 왜냐? ㅎㅎㅎ웹을 공부했기 때문.
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/cbb63f6f-8075-4686-9107-3e68f1516ccd)
+![스크린샷 2024-05-31 162427](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/e37c6829-9026-46d5-b3e3-f30ee508dfd1)
 
 
 엥 근데 그 뒤에 바로 flag가 보인다. 이거 아닌가????? 맞는 것 같으니까 복붙해서 답이 맞는지 확인해보자.
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/f7126361-3b18-462f-9ae1-8e01b02ed7b4)
+![스크린샷 2024-05-31 162510](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/df413780-d87e-48fd-8bfd-fd49747bbb2e)
+
 
 이렇게 넣어보면,
 
-![image](https://github.com/hyozii/Writeup_Semester/assets/163365936/09fea84e-5dbc-4dce-bef0-b205383fef9b)
+![스크린샷 2024-05-31 162651](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/85eff329-bbe2-4d50-8d25-8c6d3ea77e71)
+
+![스크린샷 2024-05-31 162727](https://github.com/hyozii/WriteUp_Nahamcon-CTF-2024/assets/163365936/be9b686e-5dcf-41c0-af2d-662267fbe676)
 
 오예~~ 맞았다. 와 재밌다... 쉬운 걸 해서 재미있게 느껴지는 거겠지만 그래도 맞추니까 기분이 좋다...
 
